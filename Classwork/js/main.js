@@ -24,26 +24,26 @@ window.onclick = function(event) {
   }
 }
 
-('.footer1 .btnplus').click(function () {
-    ('.footer1 .footer').text(function (prev) {
+$('.footer1 .btnplus').click(function () {
+    $('.footer1 .footer').text(function (prev) {
         prev + 1
     });
 });
 
-('.footer1 .btnminus').click(function () {
-    ('.footer1 .footer').text(function (prev) {
+$('.footer1 .btnminus').click(function () {
+    $('.footer1 .footer').text(function (prev) {
         prev - 1
     });
 });
 
-('.footer1 .btnplus').click(function () {
-    ('.footer2 .money').text(function (prev) {
+$('.footer1 .btnplus').click(function () {
+    $('.footer2 .money').text(function (prev) {
         prev + 500
     });
 });
 
-('.footer1 .btnminus').click(function () {
-    ('.footer2 .money').text(function (prev) {
+$('.footer1 .btnminus').click(function () {
+    $('.footer2 .money').text(function (prev) {
         prev - 500
     });
 });
